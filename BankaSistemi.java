@@ -2,11 +2,10 @@ import java.util.Scanner;
 
 public class BankaSistemi {
     public static void main(String[] args) {
-        // Kullanıcı giriş işlemleri için Scanner nesnesi (C++'taki cin gibi)
+
         Scanner input = new Scanner(System.util.System.in);
         
-        // 1. Sınıf Seviyesi: Sabit boyutlu diziler (Array) kullanımı
-        // Metotlardan sonrasını kullanmadığımız için bilgileri paralel dizilerde tutuyoruz
+
         int[] hesapNolari = {1001, 1002, 1003};
         String[] musteriIsimleri = {"Ahmet", "Ayse", "Mehmet"};
         double[] bakiyeler = {5000.0, 7500.50, 1200.0};
